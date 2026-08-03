@@ -3,7 +3,7 @@
 #Update branch
 git add .
 git commit -m "your message"
-git push origin <branchName>Branch
+git push origin <branchName>
 create PR
 
 
@@ -12,12 +12,12 @@ git fetch origin
 git merge origin/main
 # or:
 # git pull origin main
-git push origin <branchName>Branch
+git push origin <branchName>
 
 
 #Avoid
 git checkout main
-git merge <branchName>Branch
+git merge <branchName>
 git push origin main
 
 
@@ -25,7 +25,7 @@ git push origin main
 git add .
 git commit -m "message"
 git checkout main
-git merge <branchName>Branch
+git merge <branchName>
 git push origin main
 
 ###
