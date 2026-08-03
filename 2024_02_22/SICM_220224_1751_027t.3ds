@@ -1,0 +1,17 @@
+[ImageProcessing]
+correctingSlope=0
+correctingSlopeXTilt=0
+correctingSlopeYTilt=0
+Destriping=0
+DestripingWindow=8
+DestripingVerticalSensitivity=0.100000001490116
+DestripingRefStripe=0
+NoiseReduction=1
+NoiseReductionTresh=1
+NoiseReductionTolerance=25
+
+[ColorPalette]
+color0=0
+weight0=0
+color1=16777215
+weight1=1
