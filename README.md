@@ -1,3 +1,3 @@
 # summerClassificationProject
 
-Classification Project (wip)
+Classification Project, readme test
