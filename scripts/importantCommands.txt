@@ -1,0 +1,17 @@
+git add .
+git commit -m "your message"
+git push origin harryBranch
+
+
+#When behind
+git fetch origin
+git merge origin/main
+# or:
+# git pull origin main
+git push origin harryBranch
+
+
+#Avoid
+git checkout main
+git merge harryBranch
+git push origin main
