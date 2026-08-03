@@ -1,6 +1,10 @@
+###
+
+#Update branch
 git add .
 git commit -m "your message"
-git push origin harryBranch
+git push origin <branchName>
+create PR
 
 
 #When behind
@@ -8,20 +12,20 @@ git fetch origin
 git merge origin/main
 # or:
 # git pull origin main
-git push origin harryBranch
+git push origin <branchName>
 
 
 #Avoid
 git checkout main
-git merge harryBranch
+git merge <branchName>
 git push origin main
 
 
-#Solo
+#Solo - avoid at the moment
 git add .
 git commit -m "message"
 git checkout main
-git merge harryBranch
+git merge <branchName>
 git push origin main
 
 ###
