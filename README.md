@@ -1,2 +1,3 @@
 # summerClassificationProject
-summer project
+
+Classification Project (wip)
