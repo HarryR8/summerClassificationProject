@@ -15,3 +15,11 @@ git push origin harryBranch
 git checkout main
 git merge harryBranch
 git push origin main
+
+
+#Solo
+git add .
+git commit -m "message"
+git checkout main
+git merge harryBranch
+git push origin mainn
