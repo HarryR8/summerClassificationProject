@@ -1,0 +1,25 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=00:45:00
+#PBS -N sicm_ensemble
+# Ensemble two or more completed runs. Edit RUN_DIRS below.
+#PBS -o logs/ensemble_eval.out
+#PBS -e logs/ensemble_eval.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+cd "$PROJECT_DIR"
+
+# Required if any ensembled run used dinov3_* (gated HuggingFace model).
+if [[ -f ~/.hf_token ]]; then
+    export HF_TOKEN=$(cat ~/.hf_token)
+fi
+
+mkdir -p logs
+
+python scripts/ensemble_eval.py \
+  --run_dirs \
+    runs/CHANGE_ME_1 \
+    runs/CHANGE_ME_2 \
+  --split test \
+  --images_dir "$PROJECT_DIR/data/raw" \
+  --output_dir runs/ensemble_CHANGE_ME

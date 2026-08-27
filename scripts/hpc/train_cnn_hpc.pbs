@@ -1,0 +1,22 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=04:00:00
+#PBS -N train_cnn
+# Runs train_cnn.sh — CNN + CLIP models (resnet18, resnet50, densenet121,
+# clip_vit_base, each condition A/B). No HF_TOKEN needed (none of these are
+# gated). See train_all_hpc.pbs re: the walltime estimate.
+#PBS -o logs/train_cnn.out
+#PBS -e logs/train_cnn.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+cd "$PROJECT_DIR"
+mkdir -p logs
+
+echo "=== train_cnn_hpc.pbs ==="
+echo "Started: $(date)"
+echo "PROJECT_DIR: $PROJECT_DIR"
+
+bash scripts/train_cnn.sh
+
+echo ""
+echo "=== All done: $(date) ==="

@@ -1,0 +1,34 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=02:00:00
+#PBS -N dinov2_large_search_p2
+# Example of splitting a large model's grid across multiple PBS jobs so
+# each fits a shorter walltime and can run in parallel, instead of one
+# long job. dinov2_large's grid is 3 lr x 3 weight_decay x 2 batch_size =
+# 18 configs; --num_parts 3 splits that into 3 jobs of 6 configs each —
+# this file and its two siblings (part2, part3) together cover all 18.
+# Copy this 3-file pattern for dinov3_large too.
+#PBS -o logs/dinov2_large_search_p2.out
+#PBS -e logs/dinov2_large_search_p2.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+cd "$PROJECT_DIR"
+mkdir -p logs
+
+echo "=== DINOv2-Large grid search part 2/3 (configs 7-12 of 18) ==="
+echo "Started: $(date)"
+
+python scripts/search.py \
+    --models dinov2_large \
+    --epochs 40 \
+    --head_type mlp \
+    --dropout 0.5 \
+    --patience 8 \
+    --freeze_backbone \
+    --part 2 \
+    --num_parts 3 \
+    --output_dir runs/search_dinov2_large \
+    --images_dir "$PROJECT_DIR/data/raw"
+
+echo ""
+echo "=== All done: $(date) ==="

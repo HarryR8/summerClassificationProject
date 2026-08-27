@@ -1,0 +1,5 @@
+session,label,split,n_images
+2024_02_05_2,1,train,46
+2024_02_06,0,train,40
+2024_02_09,0,test,22
+2024_02_22_2,1,test,42

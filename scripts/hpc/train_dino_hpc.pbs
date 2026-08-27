@@ -1,0 +1,33 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=06:00:00
+#PBS -N train_dino
+# Runs train_dino.sh — DINOv2/DINOv3 models (base + large, each condition A/B).
+# dinov2_large / dinov3_large are large enough that the default GPU may be
+# tight on memory with a full fine-tune (condition B) — if you hit a CUDA
+# OOM, either lower --batch_size further in train_dino.sh or request a
+# specific high-VRAM card by adding ":gpu_type=A100" to the #PBS -l select
+# line above (see README's HPC section).
+#PBS -o logs/train_dino.out
+#PBS -e logs/train_dino.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+cd "$PROJECT_DIR"
+
+# HuggingFace token — required for gated DINOv3 models. See README.
+if [[ ! -f ~/.hf_token ]]; then
+    echo "ERROR: ~/.hf_token not found — create it before submitting this job (see README)." >&2
+    exit 1
+fi
+export HF_TOKEN=$(cat ~/.hf_token)
+
+mkdir -p logs
+
+echo "=== train_dino_hpc.pbs ==="
+echo "Started: $(date)"
+echo "PROJECT_DIR: $PROJECT_DIR"
+
+bash scripts/train_dino.sh
+
+echo ""
+echo "=== All done: $(date) ==="

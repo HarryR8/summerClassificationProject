@@ -1,0 +1,27 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=02:00:00
+#PBS -N eval_all
+# Runs run_all_evals.sh — test-set evaluation for every completed run in
+# runs/. Re-run any time after a training batch finishes; it automatically
+# picks up new run directories (see run_all_evals.sh — unlike the reference
+# project's version, nothing here needs manually editing per run).
+#PBS -o logs/eval_all.out
+#PBS -e logs/eval_all.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+cd "$PROJECT_DIR"
+
+if [[ -f ~/.hf_token ]]; then
+    export HF_TOKEN=$(cat ~/.hf_token)
+fi
+
+mkdir -p logs
+
+echo "=== run_all_evals_hpc.pbs ==="
+echo "Started: $(date)"
+
+bash scripts/run_all_evals.sh --images_dir "$PROJECT_DIR/data/raw"
+
+echo ""
+echo "=== All done: $(date) ==="

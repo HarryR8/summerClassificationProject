@@ -1,0 +1,35 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=02:00:00
+#PBS -N resnet18_search
+# Example single-job grid search (18 configs: 3 lr x 3 weight_decay x 2
+# batch_size — see get_default_param_grids() in scripts/search.py).
+# Copy this file per model for the other CNN/CLIP models (resnet50,
+# densenet121, clip_vit_base, dinov2_base, dinov3_base) — swap --models
+# and the #PBS -N/-o/-e names. For dinov2_large/dinov3_large, split across
+# multiple jobs instead — see search_dinov2_large_hpc_part1.pbs.
+#
+# IMPORTANT: read scripts/search.py's module docstring before trusting the
+# "Highest final train AUC" this prints — with no val split, this ranks
+# configs by how well they fit the training data, not by generalisation.
+#PBS -o logs/resnet18_search.out
+#PBS -e logs/resnet18_search.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+cd "$PROJECT_DIR"
+mkdir -p logs
+
+echo "=== ResNet-18 grid search (18 configs) ==="
+echo "Started: $(date)"
+
+python scripts/search.py \
+    --models resnet18 \
+    --epochs 40 \
+    --head_type mlp \
+    --dropout 0.4 \
+    --patience 10 \
+    --output_dir runs/search_resnet18 \
+    --images_dir "$PROJECT_DIR/data/raw"
+
+echo ""
+echo "=== All done: $(date) ==="

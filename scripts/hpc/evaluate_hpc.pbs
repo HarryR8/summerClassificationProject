@@ -1,0 +1,19 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=16gb:ngpus=1
+#PBS -l walltime=00:30:00
+#PBS -N sicm_eval
+# Evaluate one run on the test split. Edit RUN_DIR below, or better: use
+# run_all_evals_hpc.pbs to evaluate everything in runs/ in one job.
+#PBS -o logs/eval.out
+#PBS -e logs/eval.err
+
+PROJECT_DIR="$HOME/summerClassificationProject"
+RUN_DIR="runs/CHANGE_ME"   # <-- e.g. runs/resnet18_20260826_143021
+
+cd "$PROJECT_DIR"
+mkdir -p logs
+
+python scripts/evaluate.py \
+  --run_dir "$RUN_DIR" \
+  --split test \
+  --images_dir "$PROJECT_DIR/data/raw"

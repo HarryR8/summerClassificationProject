@@ -1,0 +1,180 @@
+filename,source_file,label,sentinel_fraction,qc_flag
+SICM_090224_1359_000t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1359_000t.img,noncancerous,0.0,False
+SICM_090224_1406_001t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1406_001t.img,noncancerous,0.0,False
+SICM_090224_1409_002t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1409_002t.img,noncancerous,0.0,False
+SICM_090224_1422_003t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1422_003t.img,noncancerous,0.033,True
+SICM_090224_1425_004t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1425_004t.img,noncancerous,0.033,True
+SICM_090224_1427_005t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1427_005t.img,noncancerous,0.0,False
+SICM_090224_1436_006t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1436_006t.img,noncancerous,0.0,False
+SICM_090224_1439_007t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1439_007t.img,noncancerous,0.0,False
+SICM_090224_1442_008t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1442_008t.img,noncancerous,0.0,False
+SICM_090224_1445_009t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1445_009t.img,noncancerous,0.0098,False
+SICM_090224_1449_010t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1449_010t.img,noncancerous,0.0,False
+SICM_090224_1452_011t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1452_011t.img,noncancerous,0.0,False
+SICM_090224_1502_012t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1502_012t.img,noncancerous,0.0,False
+SICM_090224_1505_013t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1505_013t.img,noncancerous,0.0,False
+SICM_090224_1508_014t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1508_014t.img,noncancerous,0.033,True
+SICM_090224_1510_015t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1510_015t.img,noncancerous,0.0,False
+SICM_090224_1554_016t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1554_016t.img,noncancerous,0.0,False
+SICM_090224_1557_017t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1557_017t.img,noncancerous,0.0,False
+SICM_090224_1600_018t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1600_018t.img,noncancerous,0.0,False
+SICM_090224_1604_019t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1604_019t.img,noncancerous,0.0,False
+SICM_090224_1607_020t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1607_020t.img,noncancerous,0.0,False
+SICM_090224_1610_021t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1610_021t.img,noncancerous,0.0234,False
+SICM_090224_1614_022t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1614_022t.img,noncancerous,0.0,False
+SICM_090224_1617_023t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1617_023t.img,noncancerous,0.0,False
+SICM_090224_1617_024t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1617_024t.img,noncancerous,0.038,True
+SICM_090224_1617_025t.png,/home/claude/data/2024_02_09/2024_02_09/SICM_090224_1617_025t.img,noncancerous,0.0,False
+SICM_220224_1453_000t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1453_000t.img,cancerous,0.0234,False
+SICM_220224_1454_001t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1454_001t.img,cancerous,0.038,True
+SICM_220224_1454_002t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1454_002t.img,cancerous,0.0,False
+SICM_220224_1456_003t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1456_003t.img,cancerous,0.0,False
+SICM_220224_1500_004t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1500_004t.img,cancerous,0.0,False
+SICM_220224_1504_005t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1504_005t.img,cancerous,0.0388,True
+SICM_220224_1514_006t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1514_006t.img,cancerous,0.0,False
+SICM_220224_1516_007t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1516_007t.img,cancerous,0.0,False
+SICM_220224_1518_008t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1518_008t.img,cancerous,0.0312,True
+SICM_220224_1522_009t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1522_009t.img,cancerous,0.0466,True
+SICM_220224_1524_010t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1524_010t.img,cancerous,0.0,False
+SICM_220224_1550_011t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1550_011t.img,cancerous,0.0,False
+SICM_220224_1554_012t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1554_012t.img,cancerous,0.0,False
+SICM_220224_1557_013t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1557_013t.img,cancerous,0.0,False
+SICM_220224_1559_014t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1559_014t.img,cancerous,0.0388,True
+SICM_220224_1607_015t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1607_015t.img,cancerous,0.0,False
+SICM_220224_1610_016t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1610_016t.img,cancerous,0.0,False
+SICM_220224_1614_017t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1614_017t.img,cancerous,0.0,False
+SICM_220224_1617_018t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1617_018t.img,cancerous,0.0,False
+SICM_220224_1617_019t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1617_019t.img,cancerous,0.0,False
+SICM_220224_1621_020t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1621_020t.img,cancerous,0.0,False
+SICM_220224_1732_021t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1732_021t.img,cancerous,0.0,False
+SICM_220224_1736_022t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1736_022t.img,cancerous,0.0,False
+SICM_220224_1740_023t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1740_023t.img,cancerous,0.0,False
+SICM_220224_1742_024t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1742_024t.img,cancerous,0.0,False
+SICM_220224_1745_025t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1745_025t.img,cancerous,0.0,False
+SICM_220224_1748_026t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1748_026t.img,cancerous,0.0,False
+SICM_220224_1751_027t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1751_027t.img,cancerous,0.0,False
+SICM_220224_1755_028t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1755_028t.img,cancerous,0.0,False
+SICM_220224_1757_029t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1757_029t.img,cancerous,0.0,False
+SICM_220224_1801_030t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1801_030t.img,cancerous,0.0,False
+SICM_220224_1803_031t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1803_031t.img,cancerous,0.0,False
+SICM_220224_1806_032t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1806_032t.img,cancerous,0.0,False
+SICM_220224_1808_033t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1808_033t.img,cancerous,0.0,False
+SICM_220224_1812_034t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1812_034t.img,cancerous,0.0,False
+SICM_220224_1815_035t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1815_035t.img,cancerous,0.0,False
+SICM_220224_1818_036t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1818_036t.img,cancerous,0.033,False
+SICM_220224_1821_037t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1821_037t.img,cancerous,0.0,False
+SICM_220224_1824_038t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1824_038t.img,cancerous,0.0,False
+SICM_220224_1828_039t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1828_039t.img,cancerous,0.0349,True
+SICM_220224_1836_040t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1836_040t.img,cancerous,0.0,False
+SICM_220224_1838_041t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1838_041t.img,cancerous,0.0,False
+SICM_220224_1842_042t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1842_042t.img,cancerous,0.0,False
+SICM_220224_1845_043t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1845_043t.img,cancerous,0.0,False
+SICM_220224_1849_044t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1849_044t.img,cancerous,0.0,False
+SICM_220224_1852_045t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1852_045t.img,cancerous,0.0,False
+SICM_220224_1855_046t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1855_046t.img,cancerous,0.0,False
+SICM_220224_1859_047t.png,/home/claude/data/2024_02_22_2/2024_02_22 2/SICM_220224_1859_047t.img,cancerous,0.0,False
+SICM_050224_1451_000t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1451_000t.img,cancerous,0.0234,True
+SICM_050224_1454_001t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1454_001t.img,cancerous,0.0,False
+SICM_050224_1456_002t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1456_002t.img,cancerous,0.0,False
+SICM_050224_1459_003t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1459_003t.img,cancerous,0.0,False
+SICM_050224_1502_004t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1502_004t.img,cancerous,0.0,False
+SICM_050224_1507_005t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1507_005t.img,cancerous,0.0,False
+SICM_050224_1511_006t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1511_006t.img,cancerous,0.0,False
+SICM_050224_1513_007t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1513_007t.img,cancerous,0.0,False
+SICM_050224_1516_008t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1516_008t.img,cancerous,0.0,False
+SICM_050224_1519_009t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1519_009t.img,cancerous,0.0,False
+SICM_050224_1521_010t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1521_010t.img,cancerous,0.0,False
+SICM_050224_1524_011t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1524_011t.img,cancerous,0.0,False
+SICM_050224_1527_012t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1527_012t.img,cancerous,0.0,False
+SICM_050224_1530_013t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1530_013t.img,cancerous,0.0,False
+SICM_050224_1532_014t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1532_014t.img,cancerous,0.0,False
+SICM_050224_1535_015t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1535_015t.img,cancerous,0.0,False
+SICM_050224_1539_016t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1539_016t.img,cancerous,0.0332,True
+SICM_050224_1540_017t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1540_017t.img,cancerous,0.0,False
+SICM_050224_1543_018t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1543_018t.img,cancerous,0.0,False
+SICM_050224_1545_019t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1545_019t.img,cancerous,0.0,False
+SICM_050224_1548_020t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1548_020t.img,cancerous,0.0,False
+SICM_050224_1551_021t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1551_021t.img,cancerous,0.0,False
+SICM_050224_1554_022t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1554_022t.img,cancerous,0.0,False
+SICM_050224_1557_023t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1557_023t.img,cancerous,0.0,False
+SICM_050224_1600_024t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1600_024t.img,cancerous,0.0,False
+SICM_050224_1701_025t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1701_025t.img,cancerous,0.0137,False
+SICM_050224_1702_026t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1702_026t.img,cancerous,0.0562,True
+SICM_050224_1715_027t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1715_027t.img,cancerous,0.0232,False
+SICM_050224_1727_028t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1727_028t.img,cancerous,0.0,False
+SICM_050224_1730_029t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1730_029t.img,cancerous,0.0,False
+SICM_050224_1732_030t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1732_030t.img,cancerous,0.0,False
+SICM_050224_1735_031t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1735_031t.img,cancerous,0.0,False
+SICM_050224_1737_032t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1737_032t.img,cancerous,0.0,False
+SICM_050224_1740_033t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1740_033t.img,cancerous,0.0,False
+SICM_050224_1743_034t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1743_034t.img,cancerous,0.0,False
+SICM_050224_1746_035t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1746_035t.img,cancerous,0.0,False
+SICM_050224_1749_036t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1749_036t.img,cancerous,0.0,False
+SICM_050224_1752_037t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1752_037t.img,cancerous,0.0,False
+SICM_050224_1755_038t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1755_038t.img,cancerous,0.0386,True
+SICM_050224_1755_039t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1755_039t.img,cancerous,0.0,False
+SICM_050224_1759_040t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1759_040t.img,cancerous,0.0,False
+SICM_050224_1801_041t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1801_041t.img,cancerous,0.0,False
+SICM_050224_1804_042t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1804_042t.img,cancerous,0.0,False
+SICM_050224_1806_043t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1806_043t.img,cancerous,0.0,False
+SICM_050224_1809_044t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1809_044t.img,cancerous,0.0,False
+SICM_050224_1812_045t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1812_045t.img,cancerous,0.0,False
+SICM_050224_1814_046t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1814_046t.img,cancerous,0.0,False
+SICM_050224_1817_047t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1817_047t.img,cancerous,0.0,False
+SICM_050224_1819_048t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1819_048t.img,cancerous,0.0,False
+SICM_050224_1822_049t.png,/home/claude/data/2024_02_05_2/2024_02_05 2/SICM_050224_1822_049t.img,cancerous,0.0,False
+SICM_060224_1407_000t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1407_000t.img,noncancerous,0.0059,False
+SICM_060224_1409_001t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1409_001t.img,noncancerous,0.0,False
+SICM_060224_1412_002t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1412_002t.img,noncancerous,0.0388,True
+SICM_060224_1413_003t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1413_003t.img,noncancerous,0.0,False
+SICM_060224_1417_004t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1417_004t.img,noncancerous,0.0,False
+SICM_060224_1419_005t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1419_005t.img,noncancerous,0.0312,True
+SICM_060224_1421_006t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1421_006t.img,noncancerous,0.0,False
+SICM_060224_1428_007t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1428_007t.img,noncancerous,0.0,False
+SICM_060224_1430_008t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1430_008t.img,noncancerous,0.0427,True
+SICM_060224_1432_009t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1432_009t.img,noncancerous,0.0505,True
+SICM_060224_1432_010t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1432_010t.img,noncancerous,0.0,False
+SICM_060224_1435_011t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1435_011t.img,noncancerous,0.0,False
+SICM_060224_1439_012t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1439_012t.img,noncancerous,0.0,False
+SICM_060224_1443_013t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1443_013t.img,noncancerous,0.0,False
+SICM_060224_1447_014t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1447_014t.img,noncancerous,0.0,False
+SICM_060224_1449_015t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1449_015t.img,noncancerous,0.0,False
+SICM_060224_1452_016t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1452_016t.img,noncancerous,0.0293,True
+SICM_060224_1453_017t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1453_017t.img,noncancerous,0.0349,True
+SICM_060224_1454_018t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1454_018t.img,noncancerous,0.0,False
+SICM_060224_1457_019t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1457_019t.img,noncancerous,0.0,False
+SICM_060224_1459_020t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1459_020t.img,noncancerous,0.0349,True
+SICM_060224_1501_021t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1501_021t.img,noncancerous,0.0,False
+SICM_060224_1504_022t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1504_022t.img,noncancerous,0.0,False
+SICM_060224_1508_023t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1508_023t.img,noncancerous,0.0137,False
+SICM_060224_1509_024t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1509_024t.img,noncancerous,0.0209,True
+SICM_060224_1510_025t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1510_025t.img,noncancerous,0.0527,False
+SICM_060224_1513_026t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1513_026t.img,noncancerous,0.0,False
+SICM_060224_1515_027t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1515_027t.img,noncancerous,0.0,False
+SICM_060224_1518_028t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1518_028t.img,noncancerous,0.0,False
+SICM_060224_1524_029t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1524_029t.img,noncancerous,0.0234,True
+SICM_060224_1526_030t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1526_030t.img,noncancerous,0.0,False
+SICM_060224_1529_031t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1529_031t.img,noncancerous,0.0,False
+SICM_060224_1533_032t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1533_032t.img,noncancerous,0.0388,True
+SICM_060224_1643_033t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1643_033t.img,noncancerous,0.0,False
+SICM_060224_1646_034t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1646_034t.img,noncancerous,0.0,False
+SICM_060224_1649_035t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1649_035t.img,noncancerous,0.0,False
+SICM_060224_1654_036t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1654_036t.img,noncancerous,0.0,False
+SICM_060224_1657_037t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1657_037t.img,noncancerous,0.0,False
+SICM_060224_1701_038t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1701_038t.img,noncancerous,0.0,False
+SICM_060224_1703_039t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1703_039t.img,noncancerous,0.0,False
+SICM_060224_1707_040t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1707_040t.img,noncancerous,0.0,False
+SICM_060224_1710_041t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1710_041t.img,noncancerous,0.0,False
+SICM_060224_1713_042t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1713_042t.img,noncancerous,0.0,False
+SICM_060224_1717_043t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1717_043t.img,noncancerous,0.0,False
+SICM_060224_1720_044t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1720_044t.img,noncancerous,0.0271,True
+SICM_060224_1722_045t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1722_045t.img,noncancerous,0.0234,True
+SICM_060224_1737_046t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1737_046t.img,noncancerous,0.0,False
+SICM_060224_1740_047t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1740_047t.img,noncancerous,0.0,False
+SICM_060224_1743_048t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1743_048t.img,noncancerous,0.033,True
+SICM_060224_1751_049t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1751_049t.img,noncancerous,0.0,False
+SICM_060224_1754_050t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1754_050t.img,noncancerous,0.0,False
+SICM_060224_1757_051t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1757_051t.img,noncancerous,0.0,False
+SICM_060224_1800_052t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1800_052t.img,noncancerous,0.0,False
+SICM_060224_1804_053t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1804_053t.img,noncancerous,0.017,True
+SICM_060224_1805_054t.png,/home/claude/data/2024_02_06/2024_02_06/SICM_060224_1805_054t.img,noncancerous,0.0366,True

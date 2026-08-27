@@ -1,0 +1,32 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=4:mem=32gb:ngpus=1
+#PBS -l walltime=08:00:00
+#PBS -N train_all
+# Runs train_all.sh — full comparison matrix (9 models x 2 conditions).
+# Adapted from the reference irc-classification-project's
+# scripts/hpc/train_all_hpc.pbs — walltime cut from 48h to 8h since this
+# dataset's train split (~86 images) is roughly 15x smaller than BUS-BRA's;
+# treat this as a starting estimate, not a guarantee — see the README's
+# HPC section for how to sanity-check actual per-epoch timing on a short
+# run before trusting this budget for the full matrix.
+#PBS -o logs/train_all.out
+#PBS -e logs/train_all.err
+
+# --- Customise if your clone isn't at $HOME/summerClassificationProject ---
+PROJECT_DIR="$HOME/summerClassificationProject"
+
+cd "$PROJECT_DIR"
+
+# HuggingFace token — required for gated DINOv3 models. See README.
+export HF_TOKEN=$(cat ~/.hf_token)
+
+mkdir -p logs
+
+echo "=== train_all_hpc.pbs ==="
+echo "Started: $(date)"
+echo "PROJECT_DIR: $PROJECT_DIR"
+
+bash scripts/train_all.sh
+
+echo ""
+echo "=== All done: $(date) ==="

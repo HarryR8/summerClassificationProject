@@ -1,0 +1,17 @@
+{
+  "created_at_utc": "2026-08-24T22:30:13.729636+00:00",
+  "seed": 42,
+  "n_scans_in_cases_csv": 179,
+  "n_qc_flagged_excluded": 29,
+  "n_scans_used": 150,
+  "test_sessions": [
+    "2024_02_09",
+    "2024_02_22_2"
+  ],
+  "splits": {
+    "train": 86,
+    "test": 64
+  },
+  "split_strategy": "two-way (train/test only, no val \u2014 see prepare_data.py module docstring)",
+  "warning": "session is confounded with label in this dataset (every session is 100% one class) \u2014 test is session-disjoint from train, which is the best available guard against the model learning session-specific artifacts instead of real morphology. There is no held-out val split; see train.py for how model selection and evaluate.py for how threshold selection are handled without one."
+}
